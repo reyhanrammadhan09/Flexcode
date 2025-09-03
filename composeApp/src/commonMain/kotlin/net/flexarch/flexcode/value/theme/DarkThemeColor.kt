@@ -1,7 +1,7 @@
-package net.flexarch.flexcode.theme
+package net.flexarch.flexcode.value.theme
 
 // Dark Theme Color
-const val primaryColor = 0xFF
+const val primaryColor = 0xFF479C92
 const val primaryColor_V1 = 0xFF
 const val surfaceColor = 0xFF252525
 const val surfaceColor_V1 = 0xFF202020
