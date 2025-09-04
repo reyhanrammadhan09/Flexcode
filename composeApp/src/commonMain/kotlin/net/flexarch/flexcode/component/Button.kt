@@ -15,6 +15,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import flexcode.composeapp.generated.resources.Poppins_Medium
 import flexcode.composeapp.generated.resources.Res
+import net.flexarch.flexcode.value.poppinsMedium
+import net.flexarch.flexcode.value.poppinsRegular
 import net.flexarch.flexcode.value.theme.onPrimaryColor
 import net.flexarch.flexcode.value.theme.primaryColor
 import org.jetbrains.compose.resources.Font
@@ -39,8 +41,8 @@ fun ButtonW350(
         Text(
             text = "loremo",
             fontSize = 20.sp,
-            fontFamily = FontFamily(Font(resource = Res.font.Poppins_Medium)),
-            color = Color(color = onPrimaryColor)
+            color = Color(color = onPrimaryColor),
+            fontFamily = poppinsMedium()
         )
     }
 }

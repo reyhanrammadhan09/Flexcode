@@ -20,6 +20,8 @@ import net.flexarch.flexcode.value.theme.backgroudColor
 import net.flexarch.flexcode.value.theme.onBackgroudColor
 import net.flexarch.flexcode.value.discThiscodee
 import net.flexarch.flexcode.value.gretWelcome
+import net.flexarch.flexcode.value.poppinsMedium
+import net.flexarch.flexcode.value.poppinsRegular
 import net.flexarch.flexcode.value.subtiWorkon
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -39,8 +41,9 @@ fun WelcomeScreen() {
         Column {
             Text(
                 text = gretWelcome,
+                fontSize = 31.sp,
                 color = Color(color = onBackgroudColor),
-                fontSize = 32.sp
+                fontFamily = poppinsMedium()
             )
             Spacer(
                 modifier = Modifier
@@ -48,8 +51,9 @@ fun WelcomeScreen() {
             )
             Text(
                 text = subtiWorkon,
+                fontSize = 25.sp,
                 color = Color(color = onBackgroudColor),
-                fontSize = 25.sp
+                fontFamily = poppinsRegular()
             )
             Spacer(
                 modifier = Modifier
@@ -57,8 +61,9 @@ fun WelcomeScreen() {
             )
             Text(
                 text = discThiscodee,
+                fontSize = 16.sp,
                 color = Color(color = onBackgroudColor),
-                fontSize = 16.sp
+                fontFamily = poppinsRegular()
             )
         } // End from text
 
